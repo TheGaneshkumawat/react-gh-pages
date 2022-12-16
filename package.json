@@ -1,14 +1,14 @@
 {
   "name": "adopt-me",
-  "homepage": "https://TheGaneshkumawat.github.io/react-gh-pages",
+  "homepage": "https://TheGaneshkumawat.github.io/react-gh-pages/src",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
@@ -30,8 +30,11 @@
     "prettier": "^2.8.0"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-scripts": "^5.0.1",
+    "save-dev": "^0.0.1-security"
   },
   "browserslist": [
     "last 2 Chrome versions"
