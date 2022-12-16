@@ -31038,8 +31038,6 @@ exports.default = _default;
 },{"react":"../node_modules/react/index.js","./Pet":"Pet.js","./Results":"Results.js","./useBreedList":"useBreedList.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"App.js":[function(require,module,exports) {
 "use strict";
 
-var _react = _interopRequireDefault(require("react"));
-
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
 var _SearchParams = _interopRequireDefault(require("./SearchParams"));
@@ -31084,7 +31082,7 @@ const App = () => {
 _reactDom.default.render(
 /*#__PURE__*/
 (0, _jsxRuntime.jsx)(App, {}), document.getElementById("root"));
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./SearchParams":"SearchParams.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react-dom":"../node_modules/react-dom/index.js","./SearchParams":"SearchParams.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
