@@ -1,12 +1,11 @@
 {
   "name": "adopt-me",
-  "homepage": "https://theganeshkumawat.github.io/react-gh-pages/",
+  "homepage": "https://theganeshkumawat.github.io/react-gh-pages",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "dev": "parcel src/index.html",
@@ -31,8 +30,12 @@
   },
   "dependencies": {
     "-": "^0.0.1",
+    "@babel/eslint-parser": "^7.13.4",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-env": "^7.13.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.1",
     "save-dev": "^0.0.1-security"
   },
